@@ -1,0 +1,19 @@
+Reading of vector values from input file completed. Simulation started.
+Compute the factorial of n (n!) from 0 to 7
+
+Factorial of 0 is 1.
+Factorial of 1 is 1.
+Factorial of 2 is 2.
+Factorial of 3 is 6.
+Factorial of 4 is 24.
+Factorial of 5 is 120.
+Factorial of 6 is 720.
+Factorial of 7 is 5040.
+Value found for output ex_return_port: 00000000000000000000000000000000
+ return_port =           0   expected =           0 
+
+Simulation ended after                  831 cycles.
+
+Simulation completed with success
+
+- HLS_output//simulation/testbench_main_minimal_interface_tb.v:353: Verilog $finish

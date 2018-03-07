@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<bambu_results bambu_args="bambu -v2 -O2 --generate-tb=/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/test.xml --evaluation=CYCLES --simulator=VERILATOR --pretty-print=a.c --experimental-setup=BAMBU --target-file=/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/xc7z020-1clg484-VVD.xml /home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/module.c " bambu_version="Version: PandA 0.9.6-dev - Revision 54160dd7ca3a036f97300344dc772a94036db10f-master" timestamp="2018-Mar-07 07:45:06" benchmark_name="main_1">
+  <CYCLES value="831"/>
+  <HLS_execution_time value="2.91999999999999999985"/>
+</bambu_results>

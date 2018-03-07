@@ -1,0 +1,397 @@
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (c) 2004-2017 Politecnico di Milano
+Version: PandA 0.9.6-dev - Revision 54160dd7ca3a036f97300344dc772a94036db10f-master
+
+Parameters parsed in 0.00 seconds
+
+Target technology = FPGA
+Library Name     : STD_FU
+  Total cells    : 3
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 10
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 25
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 7
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 56
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 2
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 0
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 0
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 17
+  - combinational: 0
+
+Library Name     : STD
+  Total cells    : 14
+  - combinational: 0
+
+Library Name     : STD_COMMON
+  Total cells    : 52
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 8
+  - combinational: 0
+
+Library Name     : STD_SOFT_FLOAT
+  Total cells    : 2
+  - combinational: 0
+
+Library Name     : STD
+  Total cells    : 67
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 2
+  - combinational: 0
+
+Library Name     : STD_FU
+  Total cells    : 4
+  - combinational: 0
+
+Library Name     : WBWrapper
+  Total cells    : 12
+  - combinational: 0
+
+<command-line>:0:0: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/module.c: In function ‘main’:
+/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/module.c:11:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+         printf("Factorial of %d is %d.\n", n, fact(n));
+         ^
+/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/module.c:11:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+Available devices:
+ - 5CSEMA5F31C6
+ - 5SGXEA7N2F45C1
+ - EP2C70F896C6
+ - EP2C70F896C6-R
+ - EP4SGX530KH40C2
+ - LFE335EA8FN484C
+ - xc4vlx100-10ff1513
+ - xc5vlx110t-1ff1136
+ - xc5vlx330t-2ff1738
+ - xc5vlx50-3ff1153
+ - xc6vlx240t-1ff1156
+ - xc7a100t-1csg324-VVD
+ - xc7vx330t-1ffg1157
+ - xc7vx485t-2ffg1761-VVD
+ - xc7vx690t-3ffg1930-VVD
+ - xc7z020-1clg484
+ - xc7z020-1clg484-VVD
+ - xc7z020-1clg484-YOSYS-VVD
+Imported user data from file /home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/xc7z020-1clg484-VVD.xml
+Library Name     : STD_FU
+  Total cells    : 4215
+  - combinational: 0
+
+
+  Functions to be synthesized:
+    __builtin_puts
+    main
+
+
+  Memory allocation information:
+    Internal variable: __bambu_artificial_var_string_cst_25505 - 25582 - __bambu_artificial_var_string_cst_25505 in function main
+      Id: 25582
+      Base Address: 64
+      Size: 45
+      Is a Read Only Memory
+      Used &(object)
+    Internal variable: __bambu_artificial_var_string_cst_25570 - 25584 - __bambu_artificial_var_string_cst_25570 in function main
+      Id: 25584
+      Base Address: 128
+      Size: 24
+      Is a Read Only Memory
+      Used &(object)
+  This function performs unaligned accesses: main
+    BRAM bitsize: 8
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Intern data is not externally accessible
+    Aligned bitsize: 8
+    DATA bus bitsize: 8
+    ADDRESS bus bitsize: 8
+    SIZE bus bitsize: 4
+    Code has LOADs or STOREs with unaligned accesses
+    Internally allocated memory (no private memories): 128
+    Internally allocated memory: 128
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Memory allocation information:
+    Internal variable: __bambu_artificial_var_string_cst_25505 - 25582 - __bambu_artificial_var_string_cst_25505 in function main
+      Id: 25582
+      Base Address: 64
+      Size: 45
+      Is a Read Only Memory
+      Used &(object)
+    Internal variable: __bambu_artificial_var_string_cst_25570 - 25584 - __bambu_artificial_var_string_cst_25570 in function main
+      Id: 25584
+      Base Address: 128
+      Size: 24
+      Is a Read Only Memory
+      Used &(object)
+  This function performs unaligned accesses: main
+    BRAM bitsize: 8
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Intern data is not externally accessible
+    Aligned bitsize: 8
+    DATA bus bitsize: 8
+    ADDRESS bus bitsize: 8
+    SIZE bus bitsize: 4
+    Code has LOADs or STOREs with unaligned accesses
+    Internally allocated memory (no private memories): 128
+    Internally allocated memory: 128
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function __builtin_puts:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.02 seconds
+
+
+  Scheduling Information of function __builtin_puts:
+    Number of control steps: 9
+    Minimum slack: 3.1545999999999985
+    Estimated max frequency (MHz): 146.08350132935982
+  Time to perform scheduling: 0.01 seconds
+
+  Number of function call sites = 1
+
+  State Transition Graph Information of function __builtin_puts:
+    Number of operations: 17
+    Number of basic blocks: 5
+    Number of states: 9
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function __builtin_puts:
+    Bound operations:11/17
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function __builtin_puts:
+    Number of storage values inserted: 4
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function __builtin_puts:
+    Register allocation algorithm obtains a sub-optimal result: 3 registers(LB:2)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function __builtin_puts:
+    Number of modules instantiated: 16
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 40
+    Estimated area of MUX21: 72
+    Total estimated area: 112
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    Falseloop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation:
+      Iteration 0 completed in 0.00 seconds
+      Iteration 1 completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function __builtin_puts:
+    Register allocation algorithm obtains a sub-optimal result: 3 registers(LB:2)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __builtin_puts:
+    Number of allocated multiplexers (2-to-1 equivalent): 3
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function __builtin_puts: 48
+
+  Memory allocation information:
+    Internal variable: __bambu_artificial_var_string_cst_25505 - 25582 - __bambu_artificial_var_string_cst_25505 in function main
+      Id: 25582
+      Base Address: 64
+      Size: 45
+      Is a Read Only Memory
+      Used &(object)
+    Internal variable: __bambu_artificial_var_string_cst_25570 - 25584 - __bambu_artificial_var_string_cst_25570 in function main
+      Id: 25584
+      Base Address: 128
+      Size: 24
+      Is a Read Only Memory
+      Used &(object)
+  This function performs unaligned accesses: main
+    BRAM bitsize: 8
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Intern data is not externally accessible
+    Aligned bitsize: 8
+    DATA bus bitsize: 8
+    ADDRESS bus bitsize: 8
+    SIZE bus bitsize: 4
+    Code has LOADs or STOREs with unaligned accesses
+    Internally allocated memory (no private memories): 128
+    Internally allocated memory: 128
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function main:
+    Number of complex operations: 3
+    Number of complex operations: 3
+  Time to perform module allocation: 2.01 seconds
+
+
+  Scheduling Information of function main:
+    Number of control steps: 10
+    Minimum slack: 1.3847422375443834
+    Estimated max frequency (MHz): 116.07313763238686
+  Time to perform scheduling: 0.01 seconds
+
+  Number of function call sites = 0
+
+  State Transition Graph Information of function main:
+    Number of operations: 28
+    Number of basic blocks: 9
+    Number of states: 11
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function main:
+    Bound operations:28/28
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function main:
+    Number of storage values inserted: 9
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function main:
+    Number of modules instantiated: 28
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 2089
+    Estimated area of MUX21: 0
+    Total estimated area: 2089
+    Estimated number of DSPs: 3
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains a sub-optimal result: 7 registers(LB:6)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function main:
+    Number of allocated multiplexers (2-to-1 equivalent): 4
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function main: 138
+  C-based testbench generation for function main: HLS_output//simulation/values.c
+a.c: In function ‘_bambu___builtin_puts’:
+a.c:26:10: warning: assignment discards ‘const’ qualifier from pointer target type
+    s_481 = s;
+          ^
+a.c: In function ‘main’:
+a.c:67:10: warning: assignment from incompatible pointer type
+    _6671 = __bambu_artificial_var_string_cst_25505;
+          ^
+a.c:70:10: warning: assignment from incompatible pointer type
+    _6673 = __bambu_artificial_var_string_cst_25570;
+          ^
+a.c:84:24: warning: passing argument 1 of ‘__builtin_printf’ from incompatible pointer type
+       __builtin_printf(_6673, n_6644, 1);
+                        ^
+a.c:84:24: note: expected ‘const char *’ but argument is of type ‘char (*)[24]’
+a.c:102:21: warning: passing argument 1 of ‘__builtin_printf’ from incompatible pointer type
+    __builtin_printf(_6673, n_6644, _6648);
+                     ^
+a.c:102:21: note: expected ‘const char *’ but argument is of type ‘char (*)[24]’
+
+  Summary of resources:
+     - ARRAY_1D_STD_BRAM_SDS_BUS: 2
+     - ASSIGN_SIGNED_FU: 2
+     - ASSIGN_UNSIGNED_FU: 1
+     - BMEMORY_CTRL: 1
+     - IIdata_converter_FU: 8
+     - IUdata_converter_FU: 2
+     - MUX_GATE: 7
+     - PRINTF_VECTOR_BOOL32_INT8_INT32: 1
+     - PRINTF_VECTOR_BOOL32_INT8_INT8: 1
+     - UIdata_converter_FU: 1
+     - UUdata_converter_FU: 7
+     - __builtin_putchar: 2
+     - addr_expr_FU: 2
+     - bus_merger: 12
+     - constant_value: 12
+     - eq_expr_FU: 1
+     - flipflop_AR: 1
+     - mult_expr_FU: 1
+     - ne_expr_FU: 2
+     - plus_expr_FU: 1
+     - read_cond_FU: 5
+     - register_SE: 10
+     - ui_eq_expr_FU: 1
+     - ui_ne_expr_FU: 1
+     - ui_plus_expr_FU: 2
+     - ui_pointer_plus_expr_FU: 1
+Reading of vector values from input file completed. Simulation started.
+Compute the factorial of n (n!) from 0 to 7
+
+Factorial of 0 is 1.
+Factorial of 1 is 1.
+Factorial of 2 is 2.
+Factorial of 3 is 6.
+Factorial of 4 is 24.
+Factorial of 5 is 120.
+Factorial of 6 is 720.
+Factorial of 7 is 5040.
+Value found for output ex_return_port: 00000000000000000000000000000000
+ return_port =           0   expected =           0 
+
+Simulation ended after                  831 cycles.
+
+Simulation completed with success
+
+- HLS_output//simulation/testbench_main_minimal_interface_tb.v:353: Verilog $finish
+1. Simulation completed with SUCCESS; Execution time 831 cycles;
+  Total cycles             : 831 cycles
+  Number of executions     : 1
+  Average execution        : 831 cycles
+

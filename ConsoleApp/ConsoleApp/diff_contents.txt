@@ -1,0 +1,10 @@
+90	/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/module.c: In function ‘main’:  ::::  /home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/solutions/5.1/module.c: In function ‘main’:
+91	/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/module.c:11:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]  ::::  /home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/solutions/5.1/module.c:11:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+94	/home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/module.c:11:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]  ::::  /home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/solutions/5.1/module.c:11:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+114	Imported user data from file /home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/materials/5.1/xc7z020-1clg484-VVD.xml  ::::  Imported user data from file /home/ubuntu/PandA-bambu/documentation/tutorial_fpl_2017/lab5/solutions/5.1/xc7z045-2ffg900-VVD.xml
+184	  Time to perform module allocation: 0.02 seconds  ::::    Time to perform module allocation: 0.03 seconds
+191	  Time to perform scheduling: 0.01 seconds  ::::    Time to perform scheduling: 0.00 seconds
+241	  Time to perform interconnection binding: 0.00 seconds  ::::    Time to perform interconnection binding: 0.01 seconds
+276	  Time to perform module allocation: 2.01 seconds  ::::    Time to perform module allocation: 1.94 seconds
+283	  Time to perform scheduling: 0.01 seconds  ::::    Time to perform scheduling: 0.00 seconds
+297	  Time to perform easy binding: 0.00 seconds  ::::    Time to perform easy binding: 0.01 seconds
